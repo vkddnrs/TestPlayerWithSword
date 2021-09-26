@@ -74,6 +74,13 @@ void ATestPlayerWithSwordCharacter::SetupPlayerInputComponent(class UInputCompon
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ATestPlayerWithSwordCharacter::OnResetVR);
+
+	PlayerInputComponent->BindAction("SwordAttack", IE_Pressed, this, &ATestPlayerWithSwordCharacter::SwordAttack);
+}
+
+void ATestPlayerWithSwordCharacter::SwordAttack()
+{
+     PlayAnimMontage(SwordAttackAnimMontage);
 }
 
 

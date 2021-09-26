@@ -74,3 +74,5 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 Content/ExternalContent/
+Source/TestPlayerWithSword/Private/Weapon/WeaponComponent.cpp
+Source/TestPlayerWithSword/Public/Weapon/WeaponComponent.h
